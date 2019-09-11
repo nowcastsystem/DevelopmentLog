@@ -97,3 +97,7 @@ gen.__next__()
 ### check and kill process on certain ports
 sudo lsof -i tcp:portnum
 sudo kill -9 $portnum
+
+## Docker push to docker hub
+1. dock login
+2. sh dockerbuild.sh
